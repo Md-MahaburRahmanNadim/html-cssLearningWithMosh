@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>images, why we use alt, object-fit css poperty so that is fit inter the width of the element</title>
+  <style>
+    img{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      /* when we use rectanguler and image height then the image goes deform. For solving the deformation we have to use object-fit: cover property  */
+    }
+  </style>
+</head>
+<body>
+  <img src="images/mdnadim.jpg" alt="A man set on a banch or restront">
+  <!-- why we use alt property. it's has some reson like 
+  1. it's useful for screen reader
+  2. It's useful for search engine to know more about this content 
+  3. When some one internet is slow then the man show the alt text
+  4. when malware attck your website and your server lock your all media then you also show the alt text
+  5. image path not find the your also show the alt text ok 😋😊😊 -->
+  
+</body>
+</html>

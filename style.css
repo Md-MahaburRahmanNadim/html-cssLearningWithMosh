@@ -1,9 +1,12 @@
 img {
-  width: 100px;
+  width: 400px;
+  height: 400px;
+  /* when we use height property and also we use the rectungural photo then our pic goes deform. for solving the deformation we have to use the object-fit: cover property */
   border-radius: 50%;
   float: left;
   border: 2px solid red;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 p.user-name {
