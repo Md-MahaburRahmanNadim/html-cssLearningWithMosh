@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about sementic element and non-sementic element and why we use those sementic element</title>
+</head>
+<body>
+  <!-- let's right a artical -->
+  <!-- <div></div> if we put this artical in div tag there is nothing going wrong with this but for machine reader is to good we have to use artical tag or section or any sementic tag which has meaning. For that reason we wrap those content with artical tag-->
+  <article>
+    <h1>Heading</h1>
+    <!-- with time and date there is nothing going wrong. But we can use time sementic tag to give meaning full content here -->
+
+    <!-- Here datetime="..." has nothing to do on vasual change but it's give machine reader best readiablity  -->
+    <p>Published <time datetime="2021-01-01 17:00">January 1 2021 05:00pm</time> </p>
+
+    <p> <!-- here we use mark instad of using span because of machine readiblity --> <mark>Lorem</mark> ipsum dolor sit amet consectetur, adipisicing elit. Expedita placeat quos, atque doloribus officiis corrupti quo, repellendus provident molestiae officia inventore earum modi accusamus labore natus quae dolore rerum possimus ab ipsam doloremque sapiente sunt sit minus? Cum in inventore a porro magnam, dolor quaerat fuga sunt sit assumenda nesciunt?</p>
+    <figure>
+      <figcaption>
+        My pic on green background on a restront
+      </figcaption>
+      <img src="/images/nadimgreen.jpg" alt="Man on green background">
+      
+    </figure>
+
+  </article>
+  <a href="#"> go top</a>
+</body>
+</html>
