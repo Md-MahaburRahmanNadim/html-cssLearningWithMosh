@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table is used for showing tabluar data not for layout the website</title>
+  <style>
+    table,
+    td,
+    th{
+      border: 1px solid gray;
+      /* it's collapse naybring sells two broder into 1 border. If you don't understand then comment out the border-collapse and uncomment out it */
+      border-collapse: collapse;  
+      padding: 5px;
+
+    }
+    /* DRY = DONT REPIT YOUR SELF
+     td{
+      border: 1px solid gray;
+    } */
+
+    tfoot{
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <!-- this table are not sementic and mening full to screen reader also the search engin because here the thead and tbody tag missing  -->
+  <table>
+    <tr>
+      <!-- calspan='2' mean span the this column into upto 2 cloumns in vartical derection  -->
+      <th colspan="2">Expencess </th>
+    </tr>
+    <tr>
+      <th>Category</th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <td>Food</td>
+      <td>$50</td>
+    </tr>
+    <tr>
+      <td>House bill</td>
+      <td>20$</td>
+    </tr>
+  </table>
+
+  <!-- now this table is sementic (meaning full to screen reader also the search engin to get more accorate information) -->
+  <table>
+    <thead>
+      <tr>
+        <!-- calspan='2' mean span the this column into upto 2 cloumns in vartical derection  -->
+        <th colspan="2">Expencess </th>
+      </tr>
+      <tr>
+        <th>Category</th>
+        <th>Amount</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>Food</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>House bill</td>
+        <td>20$</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th>Total</th>
+        <th>70$</th>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
