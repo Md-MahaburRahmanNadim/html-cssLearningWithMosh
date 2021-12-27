@@ -1,0 +1,32 @@
+#header-section{
+  background:orchid;
+}
+.article-bg{
+  color: #fff;
+}
+
+/* actribute selector */
+
+[target = '_blank']{
+  background:tomato;
+  /* display: block; */
+}
+/* jsut have this word on the href acctribute */
+[href*= "google"]{
+  color: green;
+}
+
+/* the https word have to be first on the href acctribute */
+[href^="https"]{
+  padding: 10px;
+}
+
+/* the .com word have to be last ont he href acctribute */
+[href$=".com"]{
+  display: inline-block;
+}
+
+
+
+
+
