@@ -1,0 +1,29 @@
+.box {
+  width: 600px;
+  height: 200px;
+  background: linear-gradient(to left, blue, green, yellow, #ff8080);
+  background: linear-gradient(to bottom right, blue, green, yellow, #ff8080);
+  background: linear-gradient(
+    to bottom right,
+    blue 0.5%,
+    green 10%,
+    yellow 50%,
+    #ff8080 30%
+  );
+  background-image: radial-gradient(#45d29a, #b64527 40%);
+  background-image: radial-gradient(circle at top left, #45d29a, #b64527 40%);
+  background-image: radial-gradient(circle at top right, #45d29a 60%, #b64527);
+  background-image: radial-gradient(
+    circle at bottom left,
+    #45d29a,
+    #b64527 40%
+  );
+  /* this by the help of online gradient tools */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
