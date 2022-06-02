@@ -1,0 +1,52 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: green;
+  border: 5px solid yellow;
+  border: 5px dotted yellow;
+  border: 5px double yellow;
+  border-width: 10px 20px 30px 40px;
+  /*              top right bottom left; meaning it's start from top and follow the clock wise rule */
+  border-radius: 100%;
+  /* if we search on google the "shape" keyword then we find lots of shape which is making by the help of border-radius property which is helpfull and less pain  */
+}
+.adoveLogo {
+  width: 0;
+  height: 0;
+  border-left: 50px solid black;
+  border-right: 50px solid green;
+  border-bottom: 100px solid red;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  /* border-bottom: 50px solid transparent; */
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid green;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  /* border-bottom: 50px solid transparent; */
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-right: 100px solid green;
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  /* border-bottom: 50px solid transparent; */
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 100px solid green;
+}

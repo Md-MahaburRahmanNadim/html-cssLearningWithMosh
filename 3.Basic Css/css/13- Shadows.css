@@ -1,0 +1,15 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background: yellow;
+  box-shadow: 10px 10px 30px gray;
+
+  /* this shadow not spread allover the box. To spread it we need 0(value) of the shadow like below */
+  box-shadow: 0 0 30px gray;
+}
+
+h1 {
+  color: blue;
+  text-shadow: 2px 4px 5px rgba(6, 172, 61, 0.2);
+  /* to do poper blanding of the text shadow we have to use alfa value of the color property and make it sami-transfrance */
+}
