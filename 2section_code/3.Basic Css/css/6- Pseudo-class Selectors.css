@@ -1,0 +1,34 @@
+/* first-child pseudo-class selector has a problem when we move the element around the page. to solve this problem (:first-of-type) selector is come to action */
+
+section :first-child {
+  font-size: 143%;
+  font-style: italic;
+}
+#product :first-of-type {
+  color: deeppink;
+}
+#product :last-child {
+  color: deepskyblue;
+}
+
+#product :last-of-type {
+  color: aquamarine;
+}
+
+ul :nth-child(4n) {
+  color: deeppink;
+}
+
+/* link style */
+a:visited,
+a:link {
+  color: deepskyblue;
+}
+a:hover,
+a:focus {
+  color: deeppink;
+}
+
+a:active {
+  color: green;
+}

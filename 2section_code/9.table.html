@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table, thead,tbody,tfoot etc</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- here we use (thead,tbody,tfoot) for batther understanding the sceen reader and also the search engine -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expence</th>
+        </tr>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Break Fast</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Lunch</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Dener</td>
+          <td>40</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>120</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

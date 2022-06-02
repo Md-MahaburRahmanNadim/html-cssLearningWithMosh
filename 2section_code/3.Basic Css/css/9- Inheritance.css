@@ -1,0 +1,10 @@
+p {
+  font-size: 10vh;
+}
+strong {
+  font-size: initial;
+  border: inherit;
+}
+p {
+  border: 1px solid black;
+}

@@ -1,0 +1,46 @@
+/* type or tag selector */
+body {
+  background-color: yellow;
+  color: green;
+}
+/* id selector. every element id have to be unque */
+#idSelector {
+  margin: 50px 0 20px 0;
+}
+
+/* class selector */
+.classSelector {
+  font-weight: 900;
+  color: black;
+}
+
+/* actribute selector 
+here in this page all href or ancor element get those property
+*/
+a[href] {
+  color: burlywood;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: brown;
+}
+a[href="https://.google.com"]
+{
+}
+/* this not that much faxiable */
+
+/* something like that anywhere in this actribute */
+a[href*="google"] {
+  border-radius: 20px;
+}
+/* start with  */
+a[href^="https"] {
+  color: yellow;
+}
+/* end with */
+a[href$=".com"] {
+  background: green;
+}
+/* combine conditon */
+a[href^="https"][href$=".com/"] {
+  color: black;
+}

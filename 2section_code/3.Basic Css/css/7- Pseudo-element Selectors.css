@@ -1,0 +1,32 @@
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+/* importing an virtual element  */
+p::before {
+  content: "...";
+  display: block;
+  color: deeppink;
+}
+
+/* importing an virtual element after an element */
+p::after {
+  content: "*****";
+  display: block;
+}
+
+/* changing selection color it's only for paragrup element */
+p::selection {
+  color: green;
+  background-color: yellow;
+}
+/* changing selectied area color for hole page */
+::selection {
+  color: deeppink;
+  background: #000;
+}

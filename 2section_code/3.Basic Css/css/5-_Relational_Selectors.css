@@ -1,0 +1,23 @@
+/* it's applyed all of the child of the section container */
+/* #product {
+  color: orange;
+} */
+
+/* we want to style only first paragrap of the product section for that we have to use (>) child relational selector */
+#product > p {
+  color: orange;
+}
+
+/* what if 
+if we want to style the section container below first sebling element (+)  */
+
+#product + p {
+  color: yellow;
+}
+
+/* to applyed the rule all of the sebling of the section container we have to use (~) tilda */
+#product ~ p {
+  background-color: red;
+}
+
+/* the relational selector less faster then the element or type selector. but it's negliable. because the computer read ever stetment right to left. first it's select all of the (p tag) on this page then it's cheak are it's the sebling of the product section if it is then you do the color otherwise not do  */

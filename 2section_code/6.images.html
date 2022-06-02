@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      IMages, alt, working with rectangular image if we want the exest size then
+      we have to put image fit cover
+    </title>
+    <style>
+      img {
+        width: 200px;
+        height: 200px;
+        /* now you can see that image is queshed it's origanal size. to solve this problem we have to use below property. If we dill with rectingular image and make it square then we have to use the object-fit property to give it's origanal shape */
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/coffee.jpg" alt="A coffee mog on a table" />
+    <!-- benifit of using alt or alternative text. 
+    1. to help screen reader to understand content properly
+    2. also to help search engine understand content properly and index it's also properly
+    3. when the path of the images is rong then it show the alt text insted of image. If the net is slow or net conectivity problem then it dont' show the image it's show the alt text    -->
+  </body>
+</html>

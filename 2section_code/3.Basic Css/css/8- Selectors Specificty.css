@@ -1,0 +1,23 @@
+h1 {
+  color: green;
+}
+/* let's overright it by using more specific selector */
+.highlight {
+  color: dodgerblue;
+}
+/* again overright it by using more specific selector */
+#products {
+  color: rebeccapurple;
+}
+/* SAME specifity but applied the last element */
+#products {
+  color: blueviolet;
+}
+
+/* let's biolate all the color rule by using !importent or righting more specific selector */
+#products.highlight {
+  color: brown;
+}
+.freture#products.highlight h1 {
+  color: yellow;
+}
