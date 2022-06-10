@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.box::before {
+  content: "Hellow";
+  display: block;
+  width: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: green;
+  padding: 40px;
+  border: 10px solid yellow;
+  margin: 40px;
+}

@@ -1,0 +1,42 @@
+html {
+  font-size: 71.44%;
+}
+.container {
+  border: 3px solid lightgray;
+  display: flex;
+  flex-direction: row; /*by defolt value*/
+  /* flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse; */
+  justify-content: center;
+  align-items: center;
+  /*
+  we use those property to control the over element in one line of content
+
+  flex-wrap: wrap;
+  align-content: center; */
+  height: 90vh;
+}
+.box {
+  /* sizing of the items */
+  flex-basis: 5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* shorthand property of item sizing or flex-grow,flex-shrink/basis,flex-basis/shrink */
+  flex: 2 1 15rem;
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+}
+/*
+sefl-alignment of the any items
+.box-one {
+  align-self: flex-end;
+} */
+/* .box-two {
+  flex-grow: 2;
+} */
+.box-one {
+  flex-shrink: 0;
+}

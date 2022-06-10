@@ -1,0 +1,21 @@
+html {
+  font-size: 71.44%;
+}
+.tweet {
+  border: 3px solid gold;
+}
+.clearfix::after {
+  content: "";
+  /* it's a inline element to the clear property poperly we have to make this a block level element */
+  display: block;
+  clear: both;
+}
+.img {
+  width: 4rem;
+  height: 4rem;
+  background: tomato;
+  float: left;
+}
+.clear {
+  clear: both;
+}

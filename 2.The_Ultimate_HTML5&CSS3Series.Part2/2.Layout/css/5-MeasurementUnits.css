@@ -1,0 +1,41 @@
+html {
+  /* defolt font-size of the ms-egdi 14px */
+  /* defolt font-size of the chrome 16px
+  font-size: 62.5%;
+  */
+  font-size: 71.44%;
+}
+body {
+  /* margin: 10px; */
+  /* width: 300px; */
+}
+
+.box {
+  /*  50% of the body element  */
+  width: 50%;
+  /* if we use the height unit as a persentage then we have to consearn about the content or height acctribute of this element. otherwise we end up an empty box */
+  height: 100%;
+  background: gold;
+  border: 3px solid orange;
+}
+/* vh and vw */
+.box {
+  /* this unit is scalable with the viewport of the browser window  */
+  width: 50vw;
+  height: 100vh;
+  background: gold;
+  border: 3px solid orange;
+}
+
+.box {
+  width: 10rem;
+  height: 100vh;
+  background: gold;
+  border: 3px solid orange;
+}
+/* for font-size we like to use rem unit 
+
+for above the fold content we like to use the (vh and vw) unit
+
+other wise maybe sometimes we like to use % and px unit
+*/

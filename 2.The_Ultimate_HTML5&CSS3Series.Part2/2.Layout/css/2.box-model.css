@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  /* box-sizing: border-box; */
+  padding: 40px;
+  border: 10px solid yellow;
+  margin: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      learning about float layout (float:left /float:right) parent coluption
+      (fix this parent coluption) by using after psoudo element clear:both
+      poperty
+    </title>
+    <link rel="stylesheet" href="/3.Basic Css/css/normilize.css" />
+    <link rel="stylesheet" href="css/7-FloatingElements.css" />
+  </head>
+  <body>
+    <section class="tweet clearfix">
+      <article class="img"></article>
+      <p>Lorem ipsum dolor sit, amet</p>
+      <p class="clear">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis est
+        voluptatum cupiditate excepturi quo? Unde libero cum obcaecati fugiat
+        reiciendis repudiandae fugit voluptatum nihil ipsum. Quam distinctio,
+        obcaecati error iure dignissimos autem qui consequatur a voluptas
+        debitis hic laborum aliquid eos doloribus pariatur odit illo
+        reprehenderit quos sint earum ea quas animi? Possimus molestias quod
+        dolore sequi? Dolores optio molestiae veniam, illo recusandae
+        aspernatur. Pariatur, ipsa. Ex sed, ab libero fugit ipsa ea consectetur
+        aut accusantium at veritatis non minima labore sint repellendus
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, corporis.
+      </p>
+      <!-- 
+        to solve the overflow problem we have to use every container end the clear property. but this is not semantic element to do this semantic we have to use spudo element
+        <article class="clear"></article>
+      -->
+    </section>
+  </body>
+</html>
