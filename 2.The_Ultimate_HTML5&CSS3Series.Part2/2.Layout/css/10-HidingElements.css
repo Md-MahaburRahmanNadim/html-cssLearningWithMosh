@@ -1,0 +1,12 @@
+/* display:none
+if we do that the item is total remove. We can't find any existiance of this item on this page
+
+
+
+*/
+.one {
+  display: none;
+}
+.one {
+  visibility: hidden;
+}
